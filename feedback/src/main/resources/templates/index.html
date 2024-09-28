@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+<form action="/save-feedback" method="get">
+
+    <div class="form-group">
+        <label for="yourname">Your Name :</label>
+        <input type="text" class="form-control" id="yourname" name="yourname">
+    </div>
+
+    <div class="form-group">
+        <label for="bookname">Book Name :</label>
+        <input type="text" class="form-control" id="bookname" name="bookname">
+    </div>
+    <div class="form-group">
+        <label for="feedback">FeedBack :</label>
+        <textarea id="feedback" rows="10" cols="30" class="form-control" name="feedback"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Submit
+    </button>
+</form>
+</div>
+
+</body>
+</html>
